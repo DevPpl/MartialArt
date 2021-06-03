@@ -9,7 +9,7 @@ let loadImage = (src, callback) => {
 }
 
 let imagePath = (frameNumber, animation) => {
-    return "/images/" + animation + "/" + frameNumber + ".png"; 
+    return "MartialArt/images/" + animation + "/" + frameNumber + ".png"; 
 };
 
 let frames = {
